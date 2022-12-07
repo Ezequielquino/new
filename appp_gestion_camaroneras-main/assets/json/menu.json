@@ -1,0 +1,49 @@
+
+{   
+    "nameApp": "Camaroneras",
+    "options": [
+        {
+            "id": 1,
+            "menu"  : "Ingresar\nmuestreos",
+            "displayMenuName" : "",
+            "icon"   : "assets/icons/ico_enter_sample.png",
+            "route"  : "/ticket"
+        },
+        {
+            "id": 2,
+            "menu" : "Sincronizar\ndatos",
+            "displayMenuName" : "",
+            "icon"   : "assets/icons/ico_cloud.png",
+            "route"  : "/ticket"
+        },
+        {
+            "id": 3,
+            "menu"  : "Tickets de\nsoporte",
+            "displayMenuName" : "",
+            "icon"   : "assets/icons/ico_ticket.png",
+            "route"  : "/ticket"
+        },
+        {
+            "id": 4,
+            "menu" : "Ingresar\ndieta",
+            "displayMenuName" : "",
+            "icon"   : "assets/icons/ico_food.png",
+            "route"  : "/ticket"
+        },
+        {
+            "id": 5,
+            "menu"  : "Dispositivos",
+            "displayMenuName" : "",
+            "icon"   : "assets/icons/ico_ device.png",
+            "route"  : "/ticket"
+        },
+        {
+            "id": 6,
+            "menu" : "Reportes",
+            "displayMenuName" : "",
+            "icon"   : "assets/icons/ico_report.png",
+            "route"  : "/ticket"
+        }
+        
+    ]
+}

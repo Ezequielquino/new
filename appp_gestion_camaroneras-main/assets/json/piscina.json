@@ -1,0 +1,52 @@
+{
+    "success": true,
+    "message": "Allowed all Models Permission: all",
+    "responseCode": 2,
+    "domain": "[('is_active', '=', True),('farm_id','=',1),('id','=',34)]",
+    "api_key": "6IJNAIDF2X1G6Z0I4L2IUNJTHXPMCOZ9",
+    "fields": "['name', 'is_active', 'pond_type', 'size','wh_mp_id','wh_ab_id']",
+    "object_name": "shrimps.pond",
+    "permisssions": {
+        "read": true,
+        "write": true,
+        "delete": true,
+        "create": true
+    },
+    "model_id": 311,
+    "data": [
+        {
+            "name": "LF001",
+            "is_active": true,
+            "pond_type": "pond",
+            "size": 2.0,
+            "wh_mp_id": [
+                {
+                    "id": 91,
+                    "name": "LF001-MP",
+                    "code": "LF001-MP",
+                    "parent_id": [
+                        90,
+                        "LF001"
+                    ],
+                    "active": true,
+                    "type": "internal"
+                }
+            ],
+            "wh_ab_id": [
+                {
+                    "id": 92,
+                    "name": "LF001-AB",
+                    "code": "LF001-AB",
+                    "parent_id": [
+                        90,
+                        "LF001"
+                    ],
+                    "active": true,
+                    "type": "production"
+                }
+            ],
+            "id": 34
+        }
+    ],
+    "count": 1
+}
