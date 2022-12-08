@@ -10,4 +10,5 @@ abstract class RoutesName {
   static const TICKETDETAIL = '/ticketDetail';
   static const ASSIGNMENTS = '/assignments';
   static const ASSIGNMENTSDETAIL = '/assignmentsDetail';
+  static const TICKETSLIST = '/ticketlist';
 }

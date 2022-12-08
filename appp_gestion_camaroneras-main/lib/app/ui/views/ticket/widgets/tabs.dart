@@ -1,5 +1,5 @@
 import 'package:app_gestion_camaroneras/app/ui/views/ticket/widgets/one_tab.dart';
-import 'package:app_gestion_camaroneras/app/ui/views/ticket/widgets/two_tab.dart';
+//import 'package:app_gestion_camaroneras/app/ui/views/ticket/widgets/two_tab.dart';
 import 'package:app_gestion_camaroneras/core/theme/app_colors.dart';
 import 'package:app_gestion_camaroneras/core/theme/app_text_theme.dart';
 import 'package:flutter/material.dart';
@@ -30,7 +30,7 @@ class Tabs extends StatelessWidget {
             child: const TabBarView(
               children: [
                 OneTab(),
-                TwoTab(),
+                // TwoTab(),
               ],
             ),
           ),

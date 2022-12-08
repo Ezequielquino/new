@@ -1,12 +1,14 @@
-import 'package:app_gestion_camaroneras/app/ui/views/ticket/widgets/tabs.dart';
-import 'package:app_gestion_camaroneras/core/theme/app_colors.dart';
-import 'package:app_gestion_camaroneras/core/theme/app_text_theme.dart';
+//import 'package:app_gestion_camaroneras/app/ui/views/assignments/widgets/tickets.dart';
+import 'package:app_gestion_camaroneras/app/ui/views/listado_tickets/widgets/ticketinfo.dart';
+//import 'package:app_gestion_camaroneras/app/ui/views/ticket/widgets/tabs.dart';
+//import 'package:app_gestion_camaroneras/core/theme/app_colors.dart';
+//import 'package:app_gestion_camaroneras/core/theme/app_text_theme.dart';
 import 'package:app_gestion_camaroneras/core/utils/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class BodyContent extends StatelessWidget {
-  const BodyContent({Key? key}) : super(key: key);
+class BContent extends StatelessWidget {
+  const BContent({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +16,7 @@ class BodyContent extends StatelessWidget {
       alignment: Alignment.bottomCenter,
       child: Container(
         width: double.infinity,
-        height: MediaQuery.of(context).size.height * 0.78,
+        // height: MediaQuery.of(context).size.height * 0.78,
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.only(
@@ -32,16 +34,10 @@ class BodyContent extends StatelessWidget {
                 right: kMarginApp.w,
                 bottom: 10.h,
               ),
-              child: Text(
-                "Mis tickets",
-                style: AppTextTheme(context).subTitleLargeBold(
-                  color: AppColors.kPrimary,
-                ),
-              ),
             ),
-            /* const Expanded(
-              child: //Tabs(),
-            ),*/
+            const Expanded(
+              child: TicketsInfo(),
+            ),
           ],
         ),
       ),

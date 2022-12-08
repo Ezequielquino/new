@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         defaultTransition: Transition.fadeIn,
         transitionDuration: const Duration(milliseconds: 400),
-        initialRoute: RoutesName.CREATETICKET,
+        initialRoute: RoutesName.TICKETSLIST,
         getPages: RoutesView.views,
         builder: (context, child) {
           return ScrollConfiguration(
